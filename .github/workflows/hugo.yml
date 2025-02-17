@@ -36,13 +36,6 @@ jobs:
         with:
           submodules: recursive
           
-      - name: Add submodule for theme gallery
-        run: |
-          git submodule add --depth=1 https://github.com/nicokaiser/hugo-theme-gallery.git themes/gallery
-          git submodule update --init --recursive
-          git commit -m "Add Hugo theme gallery submodule"
-          git push
-          
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
