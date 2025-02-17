@@ -36,8 +36,12 @@ jobs:
         id: cache-images
         uses: actions/cache@v4
         with:
+<<<<<<< HEAD
             path: .//content
             key: images-${{ hashFiles('/content/**') }}
+=======
+          submodules: recursive
+>>>>>>> 2f8ce35c6ab69628e8bd34fb3d431b5b48808957
           
       - name: Setup Pages
         id: pages
