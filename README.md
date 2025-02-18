@@ -1,5 +1,7 @@
 # Hugo-gallery-workers
 使用Hugo Gallery主题快速创建你的个人相册。
+跟常规hugo使用一样，在`config/_default/hugo.toml`定义你的Hugo主题
+
 
 # 图库端
 本仓库右上角` use this template ` 创建一个自己的仓库，
@@ -20,13 +22,13 @@
 
 # 创建新的相册
 
-比如创建`旅游`
+比如创建`live`
 
-则创建文件夹`旅游`
+则创建文件夹`live`
 文件夹中创建`index.html`最简单内容为，
 ```
 ---
-title: Fashion & Beauty
+title: 我是live标题
 ---
 ```
 封面为第一张图片，默认文件名升序。更多请看主题的使用 https://github.com/nicokaiser/hugo-theme-gallery
